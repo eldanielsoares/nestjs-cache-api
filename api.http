@@ -1,0 +1,12 @@
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "Testando este email 5",
+    "content": "Teste de envio de email 5"
+}
+
+
+###
+GET http://localhost:3000/posts
